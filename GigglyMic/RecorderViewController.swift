@@ -27,7 +27,7 @@ class RecorderViewController: UIViewController,AVAudioPlayerDelegate, AVAudioRec
         super.viewDidLoad()
 
         // Hide Audio Button
-        playAudioButton.hidden = true
+        playAudioButton.hidden = true  
         audioRecorderLabel.text = "Record an Audio"
     }
 
