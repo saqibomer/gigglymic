@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		AAA0BEC61B96EFA40026026B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BEC51B96EFA40026026B /* AppDelegate.swift */; };
 		AAA0BEC91B96EFA40026026B /* GigglyMic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BEC71B96EFA40026026B /* GigglyMic.xcdatamodeld */; };
-		AAA0BECB1B96EFA40026026B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BECA1B96EFA40026026B /* ViewController.swift */; };
 		AAA0BECE1B96EFA40026026B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA0BECC1B96EFA40026026B /* Main.storyboard */; };
 		AAA0BED01B96EFA40026026B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA0BECF1B96EFA40026026B /* Images.xcassets */; };
 		AAA0BED31B96EFA40026026B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAA0BED11B96EFA40026026B /* LaunchScreen.xib */; };
 		AAA0BEDF1B96EFA40026026B /* GigglyMicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BEDE1B96EFA40026026B /* GigglyMicTests.swift */; };
+		AAA0BEEA1B96F0F00026026B /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BEE91B96F0F00026026B /* RecorderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		AAA0BEC41B96EFA40026026B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAA0BEC51B96EFA40026026B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA0BEC81B96EFA40026026B /* GigglyMic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GigglyMic.xcdatamodel; sourceTree = "<group>"; };
-		AAA0BECA1B96EFA40026026B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAA0BECD1B96EFA40026026B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAA0BECF1B96EFA40026026B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AAA0BED21B96EFA40026026B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AAA0BED81B96EFA40026026B /* GigglyMicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GigglyMicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA0BEDD1B96EFA40026026B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAA0BEDE1B96EFA40026026B /* GigglyMicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigglyMicTests.swift; sourceTree = "<group>"; };
+		AAA0BEE91B96F0F00026026B /* RecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 		AAA0BEC21B96EFA40026026B /* GigglyMic */ = {
 			isa = PBXGroup;
 			children = (
+				AAA0BEE81B96F0DA0026026B /* ViewController */,
 				AAA0BEC51B96EFA40026026B /* AppDelegate.swift */,
-				AAA0BECA1B96EFA40026026B /* ViewController.swift */,
 				AAA0BECC1B96EFA40026026B /* Main.storyboard */,
 				AAA0BECF1B96EFA40026026B /* Images.xcassets */,
 				AAA0BED11B96EFA40026026B /* LaunchScreen.xib */,
@@ -113,6 +113,14 @@
 				AAA0BEDD1B96EFA40026026B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAA0BEE81B96F0DA0026026B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0BEE91B96F0F00026026B /* RecorderViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA0BECB1B96EFA40026026B /* ViewController.swift in Sources */,
+				AAA0BEEA1B96F0F00026026B /* RecorderViewController.swift in Sources */,
 				AAA0BEC91B96EFA40026026B /* GigglyMic.xcdatamodeld in Sources */,
 				AAA0BEC61B96EFA40026026B /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +423,7 @@
 				AAA0BEE41B96EFA40026026B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAA0BEE51B96EFA40026026B /* Build configuration list for PBXNativeTarget "GigglyMicTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				AAA0BEE71B96EFA40026026B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
