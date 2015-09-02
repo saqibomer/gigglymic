@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA0BEC61B96EFA40026026B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BEC51B96EFA40026026B /* AppDelegate.swift */; };
+		AAA0BEC91B96EFA40026026B /* GigglyMic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BEC71B96EFA40026026B /* GigglyMic.xcdatamodeld */; };
+		AAA0BECB1B96EFA40026026B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BECA1B96EFA40026026B /* ViewController.swift */; };
+		AAA0BECE1B96EFA40026026B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA0BECC1B96EFA40026026B /* Main.storyboard */; };
+		AAA0BED01B96EFA40026026B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA0BECF1B96EFA40026026B /* Images.xcassets */; };
+		AAA0BED31B96EFA40026026B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAA0BED11B96EFA40026026B /* LaunchScreen.xib */; };
+		AAA0BEDF1B96EFA40026026B /* GigglyMicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0BEDE1B96EFA40026026B /* GigglyMicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA0BED91B96EFA40026026B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA0BEB81B96EFA40026026B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA0BEBF1B96EFA40026026B;
+			remoteInfo = GigglyMic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAA0BEC01B96EFA40026026B /* GigglyMic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GigglyMic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA0BEC41B96EFA40026026B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA0BEC51B96EFA40026026B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA0BEC81B96EFA40026026B /* GigglyMic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GigglyMic.xcdatamodel; sourceTree = "<group>"; };
+		AAA0BECA1B96EFA40026026B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA0BECD1B96EFA40026026B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA0BECF1B96EFA40026026B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAA0BED21B96EFA40026026B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AAA0BED81B96EFA40026026B /* GigglyMicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GigglyMicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA0BEDD1B96EFA40026026B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA0BEDE1B96EFA40026026B /* GigglyMicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigglyMicTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA0BEBD1B96EFA40026026B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA0BED51B96EFA40026026B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA0BEB71B96EFA40026026B = {
+			isa = PBXGroup;
+			children = (
+				AAA0BEC21B96EFA40026026B /* GigglyMic */,
+				AAA0BEDB1B96EFA40026026B /* GigglyMicTests */,
+				AAA0BEC11B96EFA40026026B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA0BEC11B96EFA40026026B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0BEC01B96EFA40026026B /* GigglyMic.app */,
+				AAA0BED81B96EFA40026026B /* GigglyMicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA0BEC21B96EFA40026026B /* GigglyMic */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0BEC51B96EFA40026026B /* AppDelegate.swift */,
+				AAA0BECA1B96EFA40026026B /* ViewController.swift */,
+				AAA0BECC1B96EFA40026026B /* Main.storyboard */,
+				AAA0BECF1B96EFA40026026B /* Images.xcassets */,
+				AAA0BED11B96EFA40026026B /* LaunchScreen.xib */,
+				AAA0BEC71B96EFA40026026B /* GigglyMic.xcdatamodeld */,
+				AAA0BEC31B96EFA40026026B /* Supporting Files */,
+			);
+			path = GigglyMic;
+			sourceTree = "<group>";
+		};
+		AAA0BEC31B96EFA40026026B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0BEC41B96EFA40026026B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAA0BEDB1B96EFA40026026B /* GigglyMicTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0BEDE1B96EFA40026026B /* GigglyMicTests.swift */,
+				AAA0BEDC1B96EFA40026026B /* Supporting Files */,
+			);
+			path = GigglyMicTests;
+			sourceTree = "<group>";
+		};
+		AAA0BEDC1B96EFA40026026B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0BEDD1B96EFA40026026B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA0BEBF1B96EFA40026026B /* GigglyMic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA0BEE21B96EFA40026026B /* Build configuration list for PBXNativeTarget "GigglyMic" */;
+			buildPhases = (
+				AAA0BEBC1B96EFA40026026B /* Sources */,
+				AAA0BEBD1B96EFA40026026B /* Frameworks */,
+				AAA0BEBE1B96EFA40026026B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GigglyMic;
+			productName = GigglyMic;
+			productReference = AAA0BEC01B96EFA40026026B /* GigglyMic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA0BED71B96EFA40026026B /* GigglyMicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA0BEE51B96EFA40026026B /* Build configuration list for PBXNativeTarget "GigglyMicTests" */;
+			buildPhases = (
+				AAA0BED41B96EFA40026026B /* Sources */,
+				AAA0BED51B96EFA40026026B /* Frameworks */,
+				AAA0BED61B96EFA40026026B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA0BEDA1B96EFA40026026B /* PBXTargetDependency */,
+			);
+			name = GigglyMicTests;
+			productName = GigglyMicTests;
+			productReference = AAA0BED81B96EFA40026026B /* GigglyMicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA0BEB81B96EFA40026026B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kaboom Labs";
+				TargetAttributes = {
+					AAA0BEBF1B96EFA40026026B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AAA0BED71B96EFA40026026B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AAA0BEBF1B96EFA40026026B;
+					};
+				};
+			};
+			buildConfigurationList = AAA0BEBB1B96EFA40026026B /* Build configuration list for PBXProject "GigglyMic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA0BEB71B96EFA40026026B;
+			productRefGroup = AAA0BEC11B96EFA40026026B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA0BEBF1B96EFA40026026B /* GigglyMic */,
+				AAA0BED71B96EFA40026026B /* GigglyMicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA0BEBE1B96EFA40026026B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA0BECE1B96EFA40026026B /* Main.storyboard in Resources */,
+				AAA0BED31B96EFA40026026B /* LaunchScreen.xib in Resources */,
+				AAA0BED01B96EFA40026026B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA0BED61B96EFA40026026B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA0BEBC1B96EFA40026026B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA0BECB1B96EFA40026026B /* ViewController.swift in Sources */,
+				AAA0BEC91B96EFA40026026B /* GigglyMic.xcdatamodeld in Sources */,
+				AAA0BEC61B96EFA40026026B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA0BED41B96EFA40026026B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA0BEDF1B96EFA40026026B /* GigglyMicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA0BEDA1B96EFA40026026B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA0BEBF1B96EFA40026026B /* GigglyMic */;
+			targetProxy = AAA0BED91B96EFA40026026B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAA0BECC1B96EFA40026026B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA0BECD1B96EFA40026026B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA0BED11B96EFA40026026B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA0BED21B96EFA40026026B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA0BEE01B96EFA40026026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA0BEE11B96EFA40026026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA0BEE31B96EFA40026026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GigglyMic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAA0BEE41B96EFA40026026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GigglyMic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAA0BEE61B96EFA40026026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GigglyMicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GigglyMic.app/GigglyMic";
+			};
+			name = Debug;
+		};
+		AAA0BEE71B96EFA40026026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GigglyMicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GigglyMic.app/GigglyMic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA0BEBB1B96EFA40026026B /* Build configuration list for PBXProject "GigglyMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA0BEE01B96EFA40026026B /* Debug */,
+				AAA0BEE11B96EFA40026026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA0BEE21B96EFA40026026B /* Build configuration list for PBXNativeTarget "GigglyMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA0BEE31B96EFA40026026B /* Debug */,
+				AAA0BEE41B96EFA40026026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA0BEE51B96EFA40026026B /* Build configuration list for PBXNativeTarget "GigglyMicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA0BEE61B96EFA40026026B /* Debug */,
+				AAA0BEE71B96EFA40026026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAA0BEC71B96EFA40026026B /* GigglyMic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAA0BEC81B96EFA40026026B /* GigglyMic.xcdatamodel */,
+			);
+			currentVersion = AAA0BEC81B96EFA40026026B /* GigglyMic.xcdatamodel */;
+			path = GigglyMic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAA0BEB81B96EFA40026026B /* Project object */;
+}
